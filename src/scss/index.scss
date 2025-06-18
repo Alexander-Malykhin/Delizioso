@@ -1,0 +1,7 @@
+@use "./settings/reset" as *;
+@use "./settings/fonts" as *;
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: $fz_14;
+}
