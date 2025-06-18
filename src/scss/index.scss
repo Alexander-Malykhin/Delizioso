@@ -4,4 +4,12 @@
 * {
   font-family: "Poppins", sans-serif;
   font-size: $fz_14;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0.7rem;
+  max-width: 80rem;
+  width: 100%;
 }

@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router';
 //COMPONENTS
 import Auth from './pages/authPage.vue'
-import Home from './pages/HomePage.vue'
+import Home from './pages/homePage.vue'
 
 export default createRouter({
     history: createWebHistory(),

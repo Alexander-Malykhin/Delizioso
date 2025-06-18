@@ -32,7 +32,7 @@ const submitButton = (e) => {
   <div class="auth">
     <div class="auth__container">
       <div class="auth__header">
-        <img :src="logoImage" alt="logo" class="auth__logo"/>
+        <router-link to="/"><img :src="logoImage" alt="logo" class="auth__logo"/></router-link>
       </div>
 
       <div class="auth__main">

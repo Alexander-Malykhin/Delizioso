@@ -12,6 +12,7 @@ export default defineConfig({
         '@assets': path.resolve(__dirname, 'src/assets'),
         '@scss': path.resolve(__dirname, 'src/scss'),
         '@scss/settings': path.resolve(__dirname, 'src/scss/settings'),
+        '@UI': path.resolve(__dirname, 'src/UI'),
     }
   }
 })
