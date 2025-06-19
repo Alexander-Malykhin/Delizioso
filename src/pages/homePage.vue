@@ -1,9 +1,14 @@
 <script setup>
+//COMPONENTS
 import Header from "@/components/header/header.vue";
+import Banner from "@/components/banner.vue";
+import Welcome from "@/components/welcome.vue";
 </script>
 
 <template>
   <Header/>
+  <Banner/>
+  <Welcome/>
 </template>
 
 <style scoped>

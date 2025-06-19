@@ -1,19 +1,13 @@
 <script setup>
 //COMPONENTS
-import MainButton from "@UI/mainButton.vue";
 import BasketCount from "@/components/basketCount.vue";
+import HeaderLogin from "@UI/header/headerLogin.vue";
 </script>
 
 <template>
   <div class="panel">
     <BasketCount/>
-    <MainButton
-        classWidth="button--header"
-        link="/login"
-        color="primary"
-    >
-      Log in
-    </MainButton>
+    <header-login/>
   </div>
 </template>
 
@@ -25,7 +19,7 @@ import BasketCount from "@/components/basketCount.vue";
   display: flex;
   align-items: center;
   gap: 1.8rem;
-  max-width: 13.35rem;
+  max-width: 14.35rem;
   width: 100%;
 }
 </style>
